@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.23.7</version>
+    <version>2.23.8</version>
     <packageSourceUrl>https://github.com/kmiya-culti/RLogin/tree/master/RLogin</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>veracosta</owners>
@@ -49,11 +49,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>rlogin ssh telnet</tags>
     <summary>RLogin is a terminal software that runs on Windows.</summary>
-    <description>RLogin supports rlogin, telnet and ssh (versions 1 and 2). It also supports secure encrypted communication considering remote server maintenance.
+    <description>RLogin is a terminal software that runs on Windows.
+    
+RLogin supports rlogin, telnet and ssh (versions 1 and 2). It also supports secure encrypted communication considering remote server maintenance.
 
-Kanji codes correspond to EUC, SJIS, UTF - 8, etc. Various character codes can be displayed by switching banks according to ISO - 2022.
+Kanji codes correspond to EUC, SJIS, UTF - 8, etc. Various character codes can be displayed by switching banks according to ISO-2022.
 
-It can be used as ANSI or vt100 console in response to xterm-compliant escape sequence etc. as screen control. </description>
+RLogin can be used as ANSI or vt100 console in response to xterm-compliant escape sequence etc. as screen control. </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
