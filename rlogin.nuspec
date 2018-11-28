@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.23.8</version>
+    <version>2.23.9</version>
     <packageSourceUrl>https://github.com/kmiya-culti/RLogin/tree/master/RLogin</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>veracosta</owners>
@@ -56,7 +56,7 @@ RLogin supports rlogin, telnet and ssh (versions 1 and 2). It also supports secu
 Kanji codes correspond to EUC, SJIS, UTF - 8, etc. Various character codes can be displayed by switching banks according to ISO-2022.
 
 RLogin can be used as ANSI or vt100 console in response to xterm-compliant escape sequence etc. as screen control. </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>See all - https://kmiya-culti.github.io/RLogin/history.html</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
