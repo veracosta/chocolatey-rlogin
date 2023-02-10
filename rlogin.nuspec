@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.26.1</version>
+    <version>2.27.1</version>
     <packageSourceUrl>https://github.com/kmiya-culti/RLogin/tree/master/RLogin</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>veracosta</owners>
@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>RLogin</title>
     <authors>kmiya-culti</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>http://nanno.dip.jp/softlib/man/rlogin/</projectUrl>
+    <projectUrl>https://kmiya-culti.github.io/RLogin/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/kmiya-culti/RLogin/76a0a342/docs/RLOGIN.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
@@ -50,12 +50,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>rlogin ssh telnet</tags>
     <summary>RLogin is a terminal software that runs on Windows.</summary>
     <description>RLogin is a terminal software that runs on Windows.
-    
-RLogin supports rlogin, telnet and ssh (versions 1 and 2). It also supports secure encrypted communication considering remote server maintenance.
-
-Kanji codes correspond to EUC, SJIS, UTF - 8, etc. Various character codes can be displayed by switching banks according to ISO-2022.
-
-RLogin can be used as ANSI or vt100 console in response to xterm-compliant escape sequence etc. as screen control. </description>
+RLogin supports three protocols: rlogin, telnet, and ssh (version 1 and 2), and supports secure encrypted communication for remote server maintenance.
+It supports EUC, SJIS, UTF-8, etc., and can display a variety of character codes by switching banks according to ISO-2022.
+It can be used as an ANSI or vt100 console, and supports escape sequences based on xterm for screen control.</description>
     <releaseNotes>See all - https://kmiya-culti.github.io/RLogin/history.html</releaseNotes>
     <!-- =============================== -->      
 
