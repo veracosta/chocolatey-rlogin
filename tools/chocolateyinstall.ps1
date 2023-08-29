@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/kmiya-culti/RLogin/files/8972649/rlogin_x32.zip'
-$url64      = 'https://github.com/kmiya-culti/RLogin/files/8972650/rlogin_x64.zip'
+$url        = 'https://github.com/kmiya-culti/RLogin/files/10702253/rlogin_x32.zip'
+$url64      = 'https://github.com/kmiya-culti/RLogin/files/10702257/rlogin_x64.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,9 +12,9 @@ $packageArgs = @{
 
   softwareName  = 'rlogin*'
 
-  checksum      = '85835F30EFB42FE1F7E00BDADF4603DB8D1BAE95664EB3AAFC933D95F717A0FB'
+  checksum      = '42805c745f62ad229653f6cc4620d113a4613406c36e1e10e06c002d0a741765'
   checksumType  = 'sha256'
-  checksum64    = '35903323ECAC1CFA3DA983C211FD972584AA51CEC8AEE73800609A2F3F7FA064'
+  checksum64    = '153098eb7bff3af9b6a98b7e6a5ca43f3783567a0d470af49d123477c7615e0a'
   checksumType64= 'sha256'
 }
 
